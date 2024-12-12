@@ -1,4 +1,4 @@
-package org.example;
+package db;
 
 import java.sql.Connection;
 import java.sql.ResultSet;
@@ -12,7 +12,7 @@ public class Main {
             ResultSet resultSet = statement.executeQuery("SELECT * FROM aluno");
 
             while (resultSet.next()) {
-                System.out.println("Coluna: " + resultSet.getString("Nome") + " " + resultSet.getString("Idade"));
+                System.out.println("Nomes: " + resultSet.getString("Nome") + " " + resultSet.getString("Idade"));
 
 
             }

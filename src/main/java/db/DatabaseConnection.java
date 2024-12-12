@@ -1,4 +1,4 @@
-package org.example;
+package db;
 
 import io.github.cdimascio.dotenv.Dotenv;
 
